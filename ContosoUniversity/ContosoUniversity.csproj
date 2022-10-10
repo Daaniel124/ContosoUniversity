@@ -6,6 +6,12 @@
   <PropertyGroup>
   	<RollForward>Major</RollForward>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20221010075311_init.cs" />
+    <Compile Remove="Migrations\20221010075311_init.Designer.cs" />
+    <Compile Remove="Migrations\20221010080012_init.cs" />
+    <Compile Remove="Migrations\20221010080012_init.Designer.cs" />
+  </ItemGroup>
 
 
 
